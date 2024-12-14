@@ -1,0 +1,141 @@
+{
+    "root_group": {
+        "checks": {
+            "login bem-sucedido": {
+                "name": "login bem-sucedido",
+                "path": "::login bem-sucedido",
+                "id": "3a4a48a54e91bc762e26ba4ee0641ecc",
+                "passes": 11,
+                "fails": 0
+            },
+            "página carregada com sucesso": {
+                "passes": 22,
+                "fails": 0,
+                "name": "página carregada com sucesso",
+                "path": "::página carregada com sucesso",
+                "id": "d3fdf2e8aeee6fb9826a74b8743f5185"
+            },
+            "logout bem-sucedido": {
+                "name": "logout bem-sucedido",
+                "path": "::logout bem-sucedido",
+                "id": "64ed816ba3a44de0adccc582375ebbeb",
+                "passes": 22,
+                "fails": 0
+            }
+        },
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {}
+    },
+    "metrics": {
+        "http_req_tls_handshaking": {
+            "avg": 231.32379473684213,
+            "min": 0,
+            "med": 285.1537,
+            "max": 854.4974,
+            "p(90)": 388.54467999999997,
+            "p(95)": 388.97798
+        },
+        "http_req_blocked": {
+            "avg": 397.8092877192982,
+            "min": 0,
+            "med": 501.8306,
+            "max": 1024.2731,
+            "p(90)": 703.5916,
+            "p(95)": 703.5916
+        },
+        "checks": {
+            "fails": 0,
+            "passes": 55,
+            "value": 1
+        },
+        "http_req_receiving": {
+            "avg": 26.484043859649116,
+            "min": 0,
+            "med": 0.5436,
+            "max": 326.1297,
+            "p(90)": 40.389859999999985,
+            "p(95)": 318.35236
+        },
+        "iteration_duration": {
+            "avg": 6093.122818181818,
+            "min": 3334.327,
+            "med": 5923.3056,
+            "max": 8134.2547,
+            "p(90)": 7530.4325,
+            "p(95)": 7832.3436
+        },
+        "vus": {
+            "value": 2,
+            "min": 2,
+            "max": 10
+        },
+        "vus_max": {
+            "value": 10,
+            "min": 10,
+            "max": 10
+        },
+        "iterations": {
+            "count": 11,
+            "rate": 1.3520828547523394
+        },
+        "data_received": {
+            "count": 874978,
+            "rate": 107549.34109868114
+        },
+        "http_req_duration": {
+            "min": 173.514,
+            "med": 558.7929,
+            "max": 1790.5992,
+            "p(90)": 1052.3804400000001,
+            "p(95)": 1139.5289399999995,
+            "avg": 583.7684263157895
+        },
+        "http_req_sending": {
+            "p(90)": 1.2922399999999996,
+            "p(95)": 1.810659999999999,
+            "avg": 0.5333385964912281,
+            "min": 0,
+            "med": 0.51,
+            "max": 2.8023
+        },
+        "http_reqs": {
+            "count": 57,
+            "rate": 7.006247520080304
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 57,
+            "value": 0
+        },
+        "data_sent": {
+            "rate": 19036.466178550825,
+            "count": 154873
+        },
+        "http_req_connecting": {
+            "p(95)": 283.21688,
+            "avg": 125.52467192982462,
+            "min": 0,
+            "med": 162.391,
+            "max": 293.5482,
+            "p(90)": 278.88131999999996
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(95)": 1139.5289399999995,
+            "avg": 583.7684263157895,
+            "min": 173.514,
+            "med": 558.7929,
+            "max": 1790.5992,
+            "p(90)": 1052.3804400000001
+        },
+        "http_req_waiting": {
+            "p(90)": 1047.26546,
+            "p(95)": 1138.7572999999995,
+            "avg": 556.7510438596491,
+            "min": 172.2989,
+            "med": 418.9453,
+            "max": 1789.4057
+        }
+    }
+}
